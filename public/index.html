@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <!-- popins -->
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=poppins@100,101,200,201,300,301,400,401,500,501,600,601,700,701,800,801,900,901,1,2&display=swap"
+      rel="stylesheet"
+    />
+    <!-- clash display -->
+    <link href="https://api.fontshare.com/v2/css?f[]=clash-display@600&display=swap" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body class="bg-[#F1F4F5]">
+    <!-- navbar -->
+    <nav class="w-full sticky top-0 z-10 backdrop-blur-2xl bg-white/50 mx-auto py-[30px] mt-[9px] border-b border-[#DCE1FD] inset-[1px]">
+      <div class="flex flex-row max-w-[1130px] mx-auto justify-between items-center">
+        <a href="#">
+          <img src="assets/logo-perusahaan/mycompany-black.svg" alt="company logo" />
+        </a>
+        <!-- navigasi pake ul li -->
+        <ul class="flex gap-[30px]">
+          <li class="font-medium text-[080C2E] text-base font-poppins">
+            <a href="#">Products</a>
+          </li>
+          <li class="font-medium text-[080C2E] text-base font-poppins">
+            <a href="#" class="flex items-center gap-x-1"
+              >Services
+              <img src="assets/icons/arrow-bottom.svg" alt="" />
+            </a>
+          </li>
+          <li class="font-medium text-[080C2E] text-base font-poppins">
+            <a href="#">Pricing</a>
+          </li>
+          <li class="font-medium text-[080C2E] text-base font-poppins">
+            <a href="#">Testimonials</a>
+          </li>
+          <li class="font-medium text-[080C2E] text-base font-poppins">
+            <a href="#">Blog</a>
+          </li>
+        </ul>
+
+        <div class="flex justify-end gap-[10px]">
+          <!-- icon yang ada bg harus div -->
+          <a href="#" class="size-11 bg-[#FFFFFF] rounded-full flex justify-center items-center">
+            <img src="assets/icons/cart.svg" alt="cart" />
+          </a>
+          <!-- tombol harus a -->
+          <a href="#" class="font-semibold text-base text-[#FFFFFF] px-[30px] py-[10px] rounded-[100px] bg-[#080C2E] font-poppins">Sign In</a>
+        </div>
+      </div>
+    </nav>
+    <!-- header -->
+    <header class="flex justify-between items-center max-w-[1130px] mx-auto mt-[70px]">
+      <div class="w-[574px]">
+        <img src="assets/images/we-host-more-than-120,000-websites.png" alt="image" class="w-[355px] h-[40px] mb-10" />
+        <h1 class="font-semibold text-[70px] text-[#080C2E] font-clash mb-[10px]">Grow Online Business Faster.</h1>
+        <p class="font-poppins font-medium text-base leading-8 text-[#5D5D7C] w-[437px] mb-10">
+          We provide a variety of servers to grow your users acquisition much user-friendly and boosting up sales.
+        </p>
+        <div class="cta flex items-center gap-x-5">
+          <a href="#" class="font-poppins font-bold text-lg text-[#FFFFFF] px-[40px] py-[16px] bg-[#640EF1] rounded-[100px]">Try Free Trial</a>
+          <a href="#" class="flex items-center gap-[6px]">
+            <img src="assets/icons/computer-purple.svg" alt="computer icon" />
+            <p class="font-poppins font-semibold text-base text-[#640EF1]">Schedule a Demo</p>
+          </a>
+        </div>
+      </div>
+      <img src="assets/images/header-image.png" alt="header image" class="w-[500px] h-[550px]" />
+    </header>
+    <!-- partner company -->
+    <ul class="flex justify-center items-center gap-x-[50px] max-w-[1130px] mx-auto mt-[100px]">
+      <li>
+        <a href="#"><img src="assets/logo-perusahaan/partner1.svg" alt="company partner" loading="lazy" /></a>
+      </li>
+      <li>
+        <a href="#"><img src="assets/logo-perusahaan/partner2.svg" alt="company partner" loading="lazy" /></a>
+      </li>
+      <li>
+        <a href="#"><img src="assets/logo-perusahaan/partner3.svg" alt="company partner" loading="lazy" /></a>
+      </li>
+      <li>
+        <a href="#"><img src="assets/logo-perusahaan/partner4.svg" alt="company partner" loading="lazy" /></a>
+      </li>
+      <li>
+        <a href="#"><img src="assets/logo-perusahaan/partner5.svg" alt="company partner" loading="lazy" /></a>
+      </li>
+    </ul>
+
+    <!-- your best choice -->
+    <section class="mt-[100px]">
+      <h2 class="font-clash font-semibold text-[46px] text-[#080C2E] max-w-[1130px] mx-auto flex justify-center items-center">Your Best Choice</h2>
+      <div class="flex justify-center items-center gap-x-[30px] max-w-[1130px] mx-auto mt-[30px]">
+        <div class="py-[30px] pr-[20px] pl-6 w-[260px] h-[283px] bg-[#FFFFFF] rounded-2xl">
+          <img src="assets/icons/extra-layers.svg" alt="icon" loading="lazy" class="mb-[30px]" />
+          <h3 class="font-poppins font-bold text-[22px] text-[#080C2E] mb-1">Extra Layers</h3>
+          <p class="font-poppins font-medium text-base text-[#5D5D7C] leading-7 mb-[30px]">Making your project more secure avoiding DDoS</p>
+          <a href="#" class="font-poppins font-semibold text-base text-[#640EF1]">Learn More</a>
+        </div>
+        <div class="py-[30px] pr-[20px] pl-6 w-[260px] h-[283px] bg-[#FFFFFF] rounded-2xl">
+          <img src="assets/icons/customizable.svg" alt="icon" loading="lazy" class="mb-[30px]" />
+          <h3 class="font-poppins font-bold text-[22px] text-[#080C2E] mb-1">Customizable</h3>
+          <p class="font-poppins font-medium text-base text-[#5D5D7C] leading-7 mb-[30px]">Only install what your business needs to grow</p>
+          <a href="#" class="font-poppins font-semibold text-base text-[#640EF1]">Learn More</a>
+        </div>
+        <div class="py-[30px] pr-[20px] pl-6 w-[260px] h-[283px] bg-[#080C2E] rounded-2xl relative">
+          <img
+            src="assets/decor/blur.png"
+            alt="blur image"
+            class="absolute top-[25.74px] right-[47.8px] w-[64.1px] h-[153.58px] transform rotate-[30deg] blur-[50px]"
+          />
+          <img src="assets/icons/ai-automation.svg" alt="icon" loading="lazy" class="mb-[30px]" />
+          <h3 class="font-poppins font-bold text-[22px] text-[#FFFFFF] mb-1">AI Automation</h3>
+          <p class="font-poppins font-medium text-base text-[#8D90A8] leading-7 mb-[30px]">Decide the business flow based on latest reports</p>
+          <a href="#" class="font-poppins font-semibold text-base text-[#FFFFFF]">Learn More</a>
+        </div>
+        <div class="py-[30px] pr-[20px] pl-6 w-[260px] h-[283px] bg-[#FFFFFF] rounded-2xl">
+          <img src="assets/icons/auto-scaling.svg" alt="icon" loading="lazy" class="mb-[30px]" />
+          <h3 class="font-poppins font-bold text-[22px] text-[#080C2E] mb-1">Auto-Scaling</h3>
+          <p class="font-poppins font-medium text-base text-[#5D5D7C] leading-7 mb-[30px]">Have a long weekend without worrying any loss</p>
+          <a href="#" class="font-poppins font-semibold text-base text-[#640EF1]">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- we have very -->
+    <section class="flex justify-between items-center max-w-[1130px] mx-auto mt-[100px]">
+      <img src="assets/images/we-have-very.png" alt="we have very image" class="w-[500px] h-[550px]" />
+      <div>
+        <h2 class="font-clash font-semibold text-[46px] text[#080C2E] w-[437px]">We Have Very Strong Ecosystem</h2>
+        <p class="font-poppins font-medium text-base leading-8 text-[#5D5D7C] w-[437px] mt-[10px]">
+          We provide a variety of servers to grow your users acquisition much user-friendly and boosting up sales.
+        </p>
+        <div class="mt-[50px]">
+          <div class="flex items-center gap-x-4 p-[20px] rounded-2xl bg-[#FFFFFF] w-[500px]">
+            <img src="assets/icons/$880-mio.svg" alt="icon" loading="lazy" />
+            <div>
+              <h3 class="font-poppins font-bold text-[22px] leading-6 text-[#080C2E] mb-[2px]">$880 Mio</h3>
+              <p class="font-poppins font-medium text-base text-[#5D5D7C]">Company budget saved</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-x-4 p-[20px] rounded-2xl bg-[#FFFFFF] w-[500px] mt-[20px]">
+            <img src="assets/icons/450,392.svg" alt="icon" loading="lazy" />
+            <div>
+              <h3 class="font-poppins font-bold text-[22px] leading-6 text-[#080C2E] mb-[2px]">450,392</h3>
+              <p class="font-poppins font-medium text-base text-[#5D5D7C]">All servers available</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-x-4 p-[20px] rounded-2xl bg-[#FFFFFF] w-[500px] mt-[20px]">
+            <img src="assets/icons/189-mio.svg" alt="icon" loading="lazy" />
+            <div>
+              <h3 class="font-poppins font-bold text-[22px] leading-6 text-[#080C2E] mb-[2px]">189 Mio</h3>
+              <p class="font-poppins font-medium text-base text-[#5D5D7C]">Websites are running good</p>
+            </div>
+          </div>
+        </div>
+        <div class="cta flex items-center gap-x-5 mt-[40px]">
+          <a href="#" class="font-poppins font-bold text-lg text-[#FFFFFF] px-[40px] py-[16px] bg-[#640EF1] rounded-[100px]">Explore More</a>
+          <a href="#" class="flex items-center gap-[6px]">
+            <img src="assets/icons/computer-purple.svg" alt="computer icon" />
+            <p class="font-poppins font-semibold text-base text-[#640EF1]">Schedule a Demo</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- our showcase -->
+    <section class="mt-[100px]">
+      <h2 class="text-center font-clash font-semibold text-[46px] text-[#080C2E]">Our Showcase</h2>
+      <p class="text-center mx-auto w-[530px] mt-[10px] font-poppins font-medium text-base leading-8 text-[#5D5D7C]">
+        They built amazing website to help more people around the world by using our recommendation services and products
+      </p>
+      <div class="mt-[30px] flex justify-center items-center gap-x-[40px] overflow-x-hidden">
+        <img src="assets/images/showcase1.png" alt="showcase image" class="w-[320px] h-[220px]" />
+        <a href="#" class="relative min-w-[320px] min-h-[220px]">
+          <img src="assets/images/showcase2.png" alt="showcase image" class="w-[320px] h-[220px] inset-0 border-4 border-[#640EF1] rounded-2xl" />
+          <p
+            href="#"
+            class="font-poppins font-semibold text-base text-[#FFFFFF] px-[30px] py-[10px] bg-[#640EF1] rounded-[100px] shadow-[0px_8px_30px_0px_rgba(100,14,241,0.3)] absolute bottom-[30px] left-[80.5px]"
+          >
+            View Details
+          </p>
+        </a>
+        <img src="assets/images/showcase3.png" alt="showcase image" class="w-[320px] h-[220px]" />
+        <img src="assets/images/showcase4.png" alt="showcase image" class="w-[320px] h-[220px]" />
+      </div>
+    </section>
+
+    <!-- Frequently Asked Questions -->
+    <section class="mt-[100px]">
+      <h2 class="text-center font-clash font-semibold text-[46px] text-[#080C2E]">Frequently Asked Questions</h2>
+      <div class="flex justify-center gap-x-[30px] mt-[30px]">
+        <div>
+          <div class="flex justify-between items-center w-[550px] p-[20px] bg-[#FFFFFF] rounded-2xl mb-[20px]">
+            <h3 class="font-poppins font-bold text-[20px] text-[#080C2E] w-[450px]">Why do we need to use Kapp?</h3>
+            <img src="assets/icons/arrow-bottom.svg" alt="arrow icon" loading="lazy" />
+          </div>
+          <div class="w-[550px] p-[20px] bg-[#FFFFFF] rounded-2xl mb-[20px]">
+            <div class="flex justify-between items-center mb-[20px]">
+              <h3 class="font-poppins font-bold text-[20px] text-[#080C2E] w-[450px]">Do we need to pay 6 months per item?</h3>
+              <img src="assets/icons/arrow-open.svg" alt="arrow open icon" loading="lazy" />
+            </div>
+            <p class="font-poppins mb-[20px] font-medium text-base leading-8 text-[#5D5D7C] w-[450px]">
+              Kapp is able to develop by themselve without removing the parents permission and lorem dolor si amet fully run network at 100% avoiding
+              data-loss at any moments
+            </p>
+            <a href="#" class="font-poppins font-semibold text-base text-[#640EF1]">Learn More</a>
+          </div>
+          <div class="flex justify-between items-center w-[550px] p-[20px] bg-[#FFFFFF] rounded-2xl">
+            <h3 class="font-poppins font-bold text-[20px] text-[#080C2E] w-[450px]">How to migrate from other service?</h3>
+            <img src="assets/icons/arrow-bottom.svg" alt="arrow icon" loading="lazy" />
+          </div>
+        </div>
+        <div>
+          <div class="w-[550px] p-[20px] bg-[#FFFFFF] rounded-2xl mb-[20px] h-[180px]">
+            <div class="flex justify-between items-center mb-[20px]">
+              <h3 class="font-poppins font-bold text-[20px] text-[#080C2E] w-[450px]">What if data doesn’t get stored?</h3>
+              <img src="assets/icons/arrow-open.svg" alt="arrow open icon" loading="lazy" />
+            </div>
+            <div class="overflow-y-scroll h-[110px]">
+              <p class="font-poppins mb-[20px] font-medium text-base leading-8 text-[#5D5D7C] w-[450px]">
+                Kapp is able to develop by themselve without removing the parents permission and lorem dolor si amet fully run network at 100%
+                avoiding data-loss at any moments
+              </p>
+              <a href="#" class="font-poppins font-semibold text-base text-[#640EF1]">Learn More</a>
+            </div>
+          </div>
+          <div class="flex justify-between items-center w-[550px] p-[20px] bg-[#FFFFFF] rounded-2xl mb-[20px]">
+            <h3 class="font-poppins font-bold text-[20px] text-[#080C2E] w-[450px]">Can we guarantee no any loss at all?</h3>
+            <img src="assets/icons/arrow-bottom.svg" alt="arrow icon" loading="lazy" />
+          </div>
+          <div class="flex justify-between items-center w-[550px] p-[20px] bg-[#080C2E] rounded-2xl">
+            <div class="font-poppins font-bold text-[20px] text-[#080C2E] w-[450px] flex items-center gap-x-[6px]">
+              <img src="assets/icons/computer-white.svg" alt="computer icon" loading="lazy" />
+              <h3 class="font-poppins font-semibold text-base text-[#FFFFFF]">Send e-mail to us for other questions</h3>
+            </div>
+            <img src="assets/icons/arrow-right.svg" alt="arrow right icon" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section class="mt-[303px] h-[695px] bg-[#070C29] w-full">
+      <div class="relative w-[1130px] mx-auto -top-[203px]">
+        <!-- start growing today -->
+        <div class="flex items-center justify-center gap-x-[60px] bg-[#640EF1] py-[50px] rounded-[40px]">
+          <div>
+            <img src="assets/images/we-host-more-than-120,000-websites.png" alt="image" class="w-[355px] h-[40px] mb-10" />
+            <h2 class="font-semibold text-[46px] text-[#FFFFFF] font-clash mb-[10px] w-[478px]">Start Growing Today</h2>
+            <p class="font-poppins font-medium text-base leading-8 text-[#FFFFFF] w-[478px] mb-10">
+              We provide a variety of servers to grow your users acquisition much user-friendly and boosting up sales.
+            </p>
+            <div class="cta flex items-center gap-x-5">
+              <a href="#" class="font-poppins font-bold text-lg text-[#080C2E] px-[40px] py-[16px] bg-[#FFD15A] rounded-[100px]">Explore More</a>
+              <a href="#" class="flex items-center gap-[6px]">
+                <img src="assets/icons/computer-white.svg" alt="computer icon" loading="lazy" />
+                <p class="font-poppins font-semibold text-base text-[#FFFFFF]">Schedule a Demo</p>
+              </a>
+            </div>
+          </div>
+          <div>
+            <div class="flex gap-x-[20px] mb-[20px]">
+              <div class="bg-[#FFFFFF] w-[150.67px] h-[172.5px] pt-[40px] rounded-[26px]">
+                <img src="assets/icons/web-crawl.svg" alt="icon" class="mx-auto mb-[20px]" />
+                <h3 class="font-poppins font-bold text-lg text-[#080C2E] text-center">Web Crawl</h3>
+              </div>
+              <div class="bg-[#FFFFFF] w-[150.67px] h-[172.5px] pt-[40px] rounded-[26px]">
+                <img src="assets/icons/fast-report.svg" alt="icon" class="mx-auto mb-[20px]" />
+                <h3 class="font-poppins font-bold text-lg text-[#080C2E] text-center">Fast Report</h3>
+              </div>
+              <a href="#" class="bg-[#080C2E] w-[150.67px] h-[172.5px] pt-[40px] rounded-[26px] relative">
+                <!-- decor -->
+                <img
+                  src="assets/decor/blur-mini.png"
+                  alt="blur image"
+                  class="absolute top-[17.48px] right-[49.75px] w-[17.69px] h-[97.02px] transform rotate-[30deg] blur-[20px]"
+                />
+                <!-- end decor -->
+                <img src="assets/icons/anti-ddos.svg" alt="icon" class="mx-auto mb-[20px]" />
+                <h3 class="font-poppins font-bold text-lg text-[#FFFFFF] text-center mb-[2px]">Anti-DDoS</h3>
+                <p href="#" class="font-poppins font-semibold text-base text-[#8D90A8] text-center block">Learn More</p>
+              </a>
+            </div>
+            <div class="flex gap-x-[20px]">
+              <div class="bg-[#FFFFFF] w-[150.67px] h-[172.5px] pt-[40px] rounded-[26px]">
+                <img src="assets/icons/auto-scale.svg" alt="icon" class="mx-auto mb-[20px]" />
+                <h3 class="font-poppins font-bold text-lg text-[#080C2E] text-center">Auto-Scale</h3>
+              </div>
+              <div class="bg-[#FFFFFF] w-[150.67px] h-[172.5px] pt-[40px] rounded-[26px]">
+                <img src="assets/icons/ai-perform.svg" alt="icon" class="mx-auto mb-[20px]" />
+                <h3 class="font-poppins font-bold text-lg text-[#080C2E] text-center">AI Perform</h3>
+              </div>
+              <div class="bg-[#FFFFFF] w-[150.67px] h-[172.5px] pt-[40px] rounded-[26px]">
+                <img src="assets/icons/top-plugins+.svg" alt="icon" class="mx-auto mb-[20px]" />
+                <h3 class="font-poppins font-bold text-lg text-[#080C2E] text-center">Top Plugins+</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end growing today -->
+
+        <!-- start products resource company -->
+        <div>
+          <div class="mt-[68px] flex">
+            <div class="mr-[100px]">
+              <a href="#"><img src="assets/logo-perusahaan/mycompany-white.svg" alt="company" class="mb-[30px]" /></a>
+              <p class="font-poppins font-medium text-base leading-7 text-[#8D90A8] w-[301px] mb-[30px]">
+                We host your empire business today using the latest technologies.
+              </p>
+              <ul class="flex gap-x-[14px]">
+                <li>
+                  <a href="#" class="size-11 bg-[#FFFFFF] rounded-full flex justify-center items-center">
+                    <img src="assets/icons/mail.svg" alt="mail" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="size-11 bg-[#FFFFFF] rounded-full flex justify-center items-center">
+                    <img src="assets/icons/globe.svg" alt="globe" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="size-11 bg-[#FFFFFF] rounded-full flex justify-center items-center">
+                    <img src="assets/icons/phone.svg" alt="phone" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="size-11 bg-[#FFFFFF] rounded-full flex justify-center items-center">
+                    <img src="assets/icons/videos.svg" alt="videos" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="mr-[70px]">
+              <h3 class="font-poppins font-bold text-lg text-[#FFFFFF] mb-[30px]">Products</h3>
+              <ul class="flex flex-col gap-y-4">
+                <li><a href="#" class="font-poppins font-medium text-base text-[#8D90A8]">Powerful Reports</a></li>
+                <li><a href="#" class="font-poppins font-medium text-base text-[#8D90A8]">Blockchain</a></li>
+                <li><a href="#" class="font-poppins font-medium text-base text-[#8D90A8]">Auto-Backup</a></li>
+                <li><a href="#" class="font-poppins font-medium text-base text-[#8D90A8]">Data Science</a></li>
+                <li><a href="#" class="font-poppins font-medium text-base text-[#8D90A8]">Auto-Scaling Up</a></li>
+              </ul>
+            </div>
+            <div class="mr-[70px]">
+              <h3 class="font-poppins font-bold text-lg text-[#FFFFFF] mb-[30px]">Resources</h3>
+              <ul class="flex flex-col gap-y-4">
+                <li><a href="#" class="font-poppins font-medium text-base text-[#8D90A8]">Support 24/7</a></li>
+                <li><a href="#" class="font-poppins font-medium text-base text-[#8D90A8]">Help Center</a></li>
+                <li><a href="#" class="font-poppins font-medium text-base text-[#8D90A8]">How-to Instructions</a></li>
+                <li><a href="#" class="font-poppins font-medium text-base text-[#8D90A8]">Blog & Tips</a></li>
+                <li><a href="#" class="font-poppins font-medium text-base text-[#8D90A8]">About Us</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="font-poppins font-bold text-lg text-[#FFFFFF] mb-[30px]">Company</h3>
+              <ul class="flex flex-col gap-y-4">
+                <li><a href="#" class="font-poppins font-medium text-base text-[#8D90A8]">Privacy and Policy</a></li>
+                <li><a href="#" class="font-poppins font-medium text-base text-[#8D90A8]">Terms and Conditions</a></li>
+                <li><a href="#" class="font-poppins font-medium text-base text-[#8D90A8]">Investor Relations</a></li>
+                <li><a href="#" class="font-poppins font-medium text-base text-[#8D90A8]">Join With Us</a></li>
+                <li><a href="#" class="font-poppins font-medium text-base text-[#8D90A8]">Our Statistics</a></li>
+              </ul>
+            </div>
+          </div>
+          <p class="mt-[50px] font-poppins font-medium text-base text-[#8D90A8] text-center">
+            All Rights Reserved • Copyright Weserve by BuildWithAngga 2024 in Bandung
+          </p>
+        </div>
+        <!-- end products resource company -->
+      </div>
+    </section>
+  </body>
+</html>
